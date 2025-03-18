@@ -1,0 +1,5 @@
+<%@ taglib prefix="c" uri="/WEB-INF/custom.tld" %>
+<c:parameterizedTag param1="abc" param2="xyz" param3="100">
+			I am @ Body<br>
+</c:parameterizedTag>
+<c:parameterizedTag param3="Ashwin"></c:parameterizedTag>

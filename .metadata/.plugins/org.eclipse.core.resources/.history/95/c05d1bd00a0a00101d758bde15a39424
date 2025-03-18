@@ -1,0 +1,23 @@
+package ash.com;
+
+import ash.com.Pro5.A;
+
+public class Pro21
+{
+	public void run()
+	{
+		for(int i=0;i<1000;i++)
+		{
+			System.out.println(i);
+		}
+	}
+}
+class Manager()
+{
+	public static void main(String[] args)
+	{
+		A a1=new A();
+		a1.run();
+		a1.start();
+	}
+}

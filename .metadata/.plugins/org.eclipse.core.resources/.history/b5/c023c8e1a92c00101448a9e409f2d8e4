@@ -1,0 +1,16 @@
+<tag-lib>
+	<jsp-version>2.0</jsp-version>
+	<tlib-version>1.0</tlib-version>
+	<uri>http://ash.com</uri>
+		<tag>
+			<name>todaysDate</name>
+			<tag-class>com.ash.DateTag</tag-class>
+		</tag>
+		<tag>
+			<name>BoldTag</name>
+			<tag-class>com.ash.BoldTag</tag-class>
+		</tag>
+		
+
+
+</tag-lib>

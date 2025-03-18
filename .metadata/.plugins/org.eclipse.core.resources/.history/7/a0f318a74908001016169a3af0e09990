@@ -1,0 +1,18 @@
+package Ash.class2;
+
+public class Prog10
+{
+	public static void main(String[] args)
+	{
+		try
+		{
+			System.out.println(100);
+		}
+		catch( ClassNotFoundException a )
+		{
+			
+		}
+	}
+}
+// we can not declare try alone it should be with finally or catch
+//try block should have some statemenets.

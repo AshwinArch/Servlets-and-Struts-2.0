@@ -1,0 +1,4 @@
+<%@ taglib prefix="c" uri="/WEB-INF/abc.tld"%>
+	<c:dataTable user="system" password="123" url="oracle.jdbc.driver.OracleDriver" className="jdbc:oracle:thin:@localhost:1521:XE" table="user">
+		<tr:bgcolor="pink"></tr:bgcolor>
+	</c:dataTable>

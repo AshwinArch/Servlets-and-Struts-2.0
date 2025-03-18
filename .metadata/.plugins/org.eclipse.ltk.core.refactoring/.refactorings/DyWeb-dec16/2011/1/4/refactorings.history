@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DyWeb-dec16/src/send/redirect/Servlet1.java&apos; to &apos;Servlet11.java&apos;" description="Rename resource &apos;Servlet1.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/send/redirect/Servlet1.java" name="Servlet11.java" stamp="1295208497837" updateReferences="true"/>
+</session>

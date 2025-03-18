@@ -1,0 +1,7 @@
+<%--<% out.println("HI");%>--%>
+
+<%--<%="Hello"%>--%>
+
+<%--<%! String s1="Hello"%>--%>
+<%@ page isELIgnored="false" %>
+${ 4+5 }

@@ -1,0 +1,2 @@
+<%@ taglib prefix="a" uri="/WEB-INF/custom.tld">
+	<a:bodyTag>Hello</a:bodyTag>	

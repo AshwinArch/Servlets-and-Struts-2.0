@@ -1,0 +1,8 @@
+<taglib>
+	<jsp-version>2.0</jsp-version>
+	<tlib-version>1.0</tlib-version>
+	<tag>
+		<name>bodyTag</name>
+		<tag-class>com.ash.MyBodyTag</tag-class>
+	</tag>
+</taglib>

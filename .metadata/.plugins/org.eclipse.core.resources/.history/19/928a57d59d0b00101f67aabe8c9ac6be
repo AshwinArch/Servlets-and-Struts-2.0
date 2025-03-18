@@ -1,0 +1,9 @@
+package Ash.class2;
+
+public class Prog11
+{
+	public static void main(String[] args)
+	{
+		int in=10/0;
+	}
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<classpath>
+  <source-attachment entry="E:/Tomcat5.5/common/lib/commons-el.jar" runtime-id="Apache Tomcat v5.5"/>
+  <source-attachment entry="E:/Tomcat5.5/common/lib/jasper-compiler-jdt.jar" runtime-id="Apache Tomcat v5.5"/>
+  <source-attachment entry="E:/Tomcat5.5/common/lib/jasper-compiler.jar" runtime-id="Apache Tomcat v5.5"/>
+  <source-attachment entry="E:/Tomcat5.5/common/lib/jasper-runtime.jar" runtime-id="Apache Tomcat v5.5"/>
+  <source-attachment entry="E:/Tomcat5.5/common/lib/jsp-api.jar" runtime-id="Apache Tomcat v5.5"/>
+  <source-attachment entry="E:/Tomcat5.5/common/lib/naming-factory-dbcp.jar" runtime-id="Apache Tomcat v5.5"/>
+  <source-attachment entry="E:/Tomcat5.5/common/lib/naming-factory.jar" runtime-id="Apache Tomcat v5.5"/>
+  <source-attachment entry="E:/Tomcat5.5/common/lib/naming-resources.jar" runtime-id="Apache Tomcat v5.5"/>
+  <source-attachment entry="E:/Tomcat5.5/common/lib/ojdbc14.jar" runtime-id="Apache Tomcat v5.5"/>
+  <source-attachment entry="E:/Tomcat5.5/common/lib/servlet-api.jar" runtime-id="Apache Tomcat v5.5" source-attachment-path="E:/Tomcat5.5/common/lib/servlet-api.jar"/>
+</classpath>

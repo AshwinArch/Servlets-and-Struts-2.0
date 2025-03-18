@@ -1,0 +1,16 @@
+package Ash.class3;
+class A
+{
+	void test()throws ClassNotFoundException
+	{
+		System.out.println("Done");
+	}
+}
+class Prog2
+{
+	public static void main(String[] args)
+	{
+		A a1=new A();
+		a1.test();
+	}
+}

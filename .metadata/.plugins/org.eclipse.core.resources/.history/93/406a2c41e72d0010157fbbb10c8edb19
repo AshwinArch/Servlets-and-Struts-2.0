@@ -1,0 +1,27 @@
+package com.ash;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+public class Servlet1 extends HttpServlet 
+{
+	private static final long serialVersionUID = 1L;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	{
+    	/*int all[]={10, 20, 30};
+		request.setAttribute("result", all);
+		request.getRequestDispatcher("ab.jsp").forward(request, response);*/
+    	
+    	ArrayList list=new ArrayList();
+    	list.add(90);
+    	list.add("abc");
+    	list.add(100.90);
+    	list.add(150.090);
+    	request.setAttribute("result", list);
+    	request.getRequestDispatcher("ab.jsp").forward(request, response);
+   	}
+}

@@ -1,0 +1,9 @@
+package Ash.class2;
+
+public class Prog25
+{
+	void test()
+	{
+		Class.forName("-----");
+	}
+}

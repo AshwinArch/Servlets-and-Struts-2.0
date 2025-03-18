@@ -1,0 +1,13 @@
+class M1 
+{
+	public static void main(String[] args) 
+	{
+		int i = 10;
+		test(i);
+	}
+	static void test(int k)
+	{
+		int k = 20;
+		System.out.println(k);
+	}
+}

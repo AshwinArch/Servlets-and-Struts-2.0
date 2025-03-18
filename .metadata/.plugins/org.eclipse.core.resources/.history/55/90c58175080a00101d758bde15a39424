@@ -1,0 +1,9 @@
+package ash.com;
+
+public class Pro18
+{
+	void startThread()
+	{
+		Start();
+	}
+}

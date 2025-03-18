@@ -1,0 +1,29 @@
+package Ash.class2;
+
+public class Prog27
+{
+	public Prog27()throws ClassNotFoundException
+	{
+		Class.forName("-----");// TODO Auto-generated constructor stub
+	}
+}
+class D1 extends Prog27
+{
+	D()throws ClassNotFoundException
+		{
+			super();
+		}
+	
+	void test()
+	{
+		System.out.println("Done");
+	}
+}
+class Manager34
+{
+	public static void main(String[] args)
+	{
+		D d1=new D();
+		d1.test();
+	}
+}

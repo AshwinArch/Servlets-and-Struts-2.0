@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package com.kelly.hadoop;
+
+/**
+ * @author Diesel
+ *
+ */
+public class WordCountNew
+{
+
+}

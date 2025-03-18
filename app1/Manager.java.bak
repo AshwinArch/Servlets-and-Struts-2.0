@@ -1,0 +1,13 @@
+class Manager
+{
+	public static void main(String[] args) 
+	{
+		test();
+	}
+	static void test()
+	{
+		int j = 15;
+		System.out.println(j);
+		return j;
+	}
+}

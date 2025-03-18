@@ -1,0 +1,5 @@
+insert into tab10 values(3, 'ashok')
+insert into tab10 values(4, 'ramu')
+insert into tab10 values(5, 'kiran')
+insert into tab10 values(6, 'ramesh')
+insert into tab10 values(7, 'rahul')

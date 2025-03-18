@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4"
+	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>DyWeb-jan17</display-name>
+	<servlet>
+		<description />
+
+		<display-name>Servlet1</display-name>
+		<servlet-name>Servlet1</servlet-name>
+		<servlet-class>com.ash.Servlet1</servlet-class>
+	</servlet>
+	<servlet>
+		<description />
+
+		<display-name>Servlet2</display-name>
+		<servlet-name>Servlet2</servlet-name>
+		<servlet-class>com.ash.Servlet2</servlet-class>
+	</servlet>
+	<servlet>
+		<description />
+
+		<display-name>HiddenServlet1</display-name>
+		<servlet-name>HiddenServlet1</servlet-name>
+		<servlet-class>com.ash.hiddenfield.HiddenServlet1</servlet-class>
+	</servlet>
+	<servlet>
+		<description />
+
+		<display-name>HiddenServlet2</display-name>
+		<servlet-name>HiddenServlet2</servlet-name>
+		<servlet-class>com.ash.hiddenfield.HiddenServlet2</servlet-class>
+	</servlet>
+	<servlet>
+		<description />
+
+		<display-name>UrlServlet1</display-name>
+		<servlet-name>UrlServlet1</servlet-name>
+		<servlet-class>com.ash.url.UrlServlet1</servlet-class>
+	</servlet>
+	<servlet>
+		<description />
+
+		<display-name>UrlServlet2</display-name>
+		<servlet-name>UrlServlet2</servlet-name>
+		<servlet-class>com.ash.url.UrlServlet2</servlet-class>
+	</servlet>
+	<servlet>
+		<description />
+
+		<display-name>CookieServlet1</display-name>
+		<servlet-name>CookieServlet1</servlet-name>
+		<servlet-class>com.ash.cookies.CookieServlet1</servlet-class>
+	</servlet>
+	<servlet>
+		<description />
+
+		<display-name>CookieServlet2</display-name>
+		<servlet-name>CookieServlet2</servlet-name>
+		<servlet-class>com.ash.cookies.CookieServlet2</servlet-class>
+	</servlet>
+	<servlet>
+		<description />
+
+		<display-name>HttpSession1</display-name>
+		<servlet-name>HttpSession1</servlet-name>
+		<servlet-class>com.ash.session.HttpSession1</servlet-class>
+	</servlet>
+	<servlet>
+		<description />
+
+		<display-name>HttpSession2</display-name>
+		<servlet-name>HttpSession2</servlet-name>
+		<servlet-class>com.ash.session.HttpSession2</servlet-class>
+	</servlet>
+	<servlet>
+		<description />
+
+		<display-name>HiddenField1</display-name>
+		<servlet-name>HiddenField1</servlet-name>
+		<servlet-class>com.ash.TwoParam.HiddenField1</servlet-class>
+	</servlet>
+	<servlet>
+		<description />
+
+		<display-name>HiddenField2</display-name>
+		<servlet-name>HiddenField2</servlet-name>
+		<servlet-class>com.ash.TwoParam.HiddenField2</servlet-class>
+	</servlet>
+	<servlet>
+		<description />
+
+		<display-name>UrlQueryString1</display-name>
+		<servlet-name>UrlQueryString1</servlet-name>
+		<servlet-class>com.ash.TwoParam.UrlQueryString1</servlet-class>
+	</servlet>
+	<servlet>
+		<description />
+
+		<display-name>UrlQueryString2</display-name>
+		<servlet-name>UrlQueryString2</servlet-name>
+		<servlet-class>com.ash.TwoParam.UrlQueryString2</servlet-class>
+	</servlet>
+	<servlet>
+		<description />
+
+		<display-name>Cookie1</display-name>
+		<servlet-name>Cookie1</servlet-name>
+		<servlet-class>com.ash.TwoParam.Cookie1</servlet-class>
+	</servlet>
+	<servlet>
+		<description />
+
+		<display-name>Cookie2</display-name>
+		<servlet-name>Cookie2</servlet-name>
+		<servlet-class>com.ash.TwoParam.Cookie2</servlet-class>
+	</servlet>
+	<servlet>
+		<description />
+
+		<display-name>Session1</display-name>
+		<servlet-name>Session1</servlet-name>
+		<servlet-class>com.ash.TwoParam.Session1</servlet-class>
+	</servlet>
+	<servlet>
+		<description />
+
+		<display-name>Session2</display-name>
+		<servlet-name>Session2</servlet-name>
+		<servlet-class>com.ash.TwoParam.Session2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet1</servlet-name>
+		<url-pattern>/Servlet1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Servlet1</servlet-name>
+		<url-pattern>/serv1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Servlet2</servlet-name>
+		<url-pattern>/serv2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>HiddenServlet1</servlet-name>
+		<url-pattern>/hserv1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>HiddenServlet2</servlet-name>
+		<url-pattern>/hserv2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UrlServlet1</servlet-name>
+		<url-pattern>/us1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UrlServlet2</servlet-name>
+		<url-pattern>/us2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CookieServlet1</servlet-name>
+		<url-pattern>/cs1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CookieServlet2</servlet-name>
+		<url-pattern>/cs2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>HttpSession1</servlet-name>
+		<url-pattern>/hs1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>HttpSession2</servlet-name>
+		<url-pattern>/hs2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>HiddenField1</servlet-name>
+		<url-pattern>/hf1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>HiddenField2</servlet-name>
+		<url-pattern>/hf2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UrlQueryString1</servlet-name>
+		<url-pattern>/uqs1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UrlQueryString2</servlet-name>
+		<url-pattern>/uqs2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Cookie1</servlet-name>
+		<url-pattern>/c1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Cookie2</servlet-name>
+		<url-pattern>/c2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Session1</servlet-name>
+		<url-pattern>/s1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Session2</servlet-name>
+		<url-pattern>/s2</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

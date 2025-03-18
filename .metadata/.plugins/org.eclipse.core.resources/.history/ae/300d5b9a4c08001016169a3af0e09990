@@ -1,0 +1,16 @@
+package Ash.class2;
+
+public class Prog15
+{
+	public static void main(String[] args)
+	{
+		try
+		{
+			Class.forName("abc");
+		}
+		catch(ClassNotFoundException e)
+		{
+//			System.out.println(1);
+		}
+	}
+}

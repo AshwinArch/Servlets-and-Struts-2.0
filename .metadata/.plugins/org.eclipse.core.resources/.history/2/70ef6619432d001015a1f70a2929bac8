@@ -1,0 +1,2 @@
+<%@ taglib prefix="test" uri="myTags" %>
+	<Test:bodyTag>Hello</Test:bodyTag>

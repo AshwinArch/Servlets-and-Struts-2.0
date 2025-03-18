@@ -1,0 +1,2 @@
+<% taglib prefix="tags" uri="/WEB-INF/custom.tld;"%>
+<tags:todaysDate/>

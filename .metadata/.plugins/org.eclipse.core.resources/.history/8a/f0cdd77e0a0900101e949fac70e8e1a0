@@ -1,0 +1,24 @@
+package Ash.class3;
+
+class A1
+{
+	void method()throws Exception
+	{
+		
+	}
+}
+class C1 extends A1 throws NoClassDefFoundError
+{
+	void method()
+	{
+		
+	}
+}
+class Prog4
+{
+	public static void main(String[] args)
+	{
+		C c1=new C();
+		c1.method();
+	}
+}

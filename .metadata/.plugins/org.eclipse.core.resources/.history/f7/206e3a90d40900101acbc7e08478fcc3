@@ -1,0 +1,12 @@
+package Ash.class3;
+
+public class Prog121
+{
+	public void method()
+	{
+		System.out.println(1);
+	}
+	Prog121 a1=new Prog121();
+	a1.method1();
+	
+}

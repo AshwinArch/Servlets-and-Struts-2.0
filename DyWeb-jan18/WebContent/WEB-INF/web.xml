@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4"
+	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>DyWeb-jan18</display-name>
+
+	<servlet>
+		<servlet-name>Servlet1</servlet-name>
+		<servlet-class>com.ash.Servlet1</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>Servlet11</display-name>
+		<servlet-name>Servlet11</servlet-name>
+		<servlet-class>
+		listener.Servlet11</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>Servlet12</display-name>
+		<servlet-name>Servlet12</servlet-name>
+		<servlet-class>
+		listener.Servlet12</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet1</servlet-name>
+		<url-pattern>/Servlet1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Servlet11</servlet-name>
+		<url-pattern>/Servlet11</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Servlet12</servlet-name>
+		<url-pattern>/Servlet12</url-pattern>
+	</servlet-mapping>
+
+	<filter>
+		<filter-name>Filter1</filter-name>
+		<filter-class>com.ash.Filter1</filter-class>
+	</filter>
+	<filter>
+		<filter-name>Filter2</filter-name>
+		<filter-class>com.ash.Filter2</filter-class>
+	</filter>
+	<filter>
+		<filter-name>Filter3</filter-name>
+		<filter-class>com.ash.Filter3</filter-class>
+	</filter>
+	<filter>
+		<filter-name>Filter4</filter-name>
+		<filter-class>com.ash.Filter4</filter-class>
+		<init-param>
+			<param-name>p1</param-name>
+			<param-value>100</param-value>
+		</init-param>
+		<init-param>
+			<param-name>p2</param-name>
+			<param-value>200</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>Filter1</filter-name>
+		<url-pattern>/Servlet1</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>Filter2</filter-name>
+		<url-pattern>/Servlet1</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>Filter3</filter-name>
+		<url-pattern>/Servlet1</url-pattern>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>Filter4</filter-name>
+		<url-pattern>/hi.html</url-pattern>
+	</filter-mapping>
+	<context-param>
+		<param-name>p3</param-name>
+		<param-value>300</param-value>
+	</context-param>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<listener>
+		<listener-class>listener.AppLifeCyclelistener</listener-class>
+	</listener>
+<listener>
+		<listener-class>listener.SessionLifeCycleListener</listener-class>
+	</listener>
+</web-app>

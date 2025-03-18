@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1306250428180_5" label="jdbc" name="jdbc">
+<item elementID="=JDBC" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1308677891582_3" label="dsf" name="dsf">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Ashwin_nur" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/JDBC" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1405719634353_6" label="HadoopWorkingSet" name="HadoopWorkingSet">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Mapreduce" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Hadoop" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/JLT" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1292064839416_0" label="Window Working Set" name="Aggregate for window 1292064839400"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1295106870669_3" label="Multiple Working Sets" name="Aggregate:Dynamic_web:WebDevelop:"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1308677896194_4" label="Multiple Working Sets" name="Aggregate:dsf:jdbc:">
+<workingSet IMemento.internal.id="dsf"/>
+<workingSet IMemento.internal.id="jdbc"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1405388778741_5" label="Window Working Set" name="Aggregate for window 1405388778741"/>
+<mruList name="HadoopWorkingSet"/>
+<mruList name="jdbc"/>
+</workingSetManager>

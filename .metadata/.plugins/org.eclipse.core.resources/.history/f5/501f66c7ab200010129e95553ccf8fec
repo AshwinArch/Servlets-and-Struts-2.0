@@ -1,0 +1,14 @@
+<form action="registration">
+FirstName:
+<input type="text" name="fn"><br>
+LastName:
+<input type="text" name="ln"><br>
+Password:
+<input type="password"  name="pw"><br>
+Address:
+<textarea cols="15" rows="4" name="add"></textarea><br>
+Gender:
+<input type="radio" name="gender" value='m'>Male &nbsp;
+<input type="radio" name="gender" value='m'>Male &nbsp;
+
+</form>

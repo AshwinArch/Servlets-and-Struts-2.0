@@ -1,0 +1,21 @@
+package Ash.class2;
+
+public class Prog10
+{
+	public static void main(String[] args)
+	{
+		try
+		{
+			
+		}
+		catch(ClassNotFoundException ex)
+		{
+			
+		}
+		finally
+		{
+			
+		}
+		
+	}
+}

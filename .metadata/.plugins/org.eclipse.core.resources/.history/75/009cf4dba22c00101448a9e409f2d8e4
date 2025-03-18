@@ -1,0 +1,4 @@
+<%
+	Date date=new Date();
+	out.println("<b>DATE : "+date+"</b>");
+%>

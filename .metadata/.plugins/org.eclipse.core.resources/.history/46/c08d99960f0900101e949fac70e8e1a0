@@ -1,0 +1,21 @@
+package Ash.class3;
+
+class B
+{
+	B()throws Exception 
+	{
+		Class.forName("------");
+	}
+}
+class A
+{
+	A()
+	{
+		super();
+	}
+}
+class Prog1
+{
+	A a1=new A();
+}
+//here we are not specifying any extends keyword which can relate our class A to Class B... 

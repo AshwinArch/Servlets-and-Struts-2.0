@@ -1,0 +1,15 @@
+package Ash.class2;
+
+public class Prog25
+{
+	Prog25()
+	{
+		Class.forName("-----");
+	}
+	public static void main(String[] args)
+	{
+		B b1=new B();
+		System.out.println("Done");
+	}
+}
+

@@ -1,0 +1,10 @@
+package Ash.class3;
+
+public class prac
+{
+	public static void main(String[] args)
+	{
+		prac z1=new prac();
+		prac z2=(prac)z1.clone();
+	}
+}

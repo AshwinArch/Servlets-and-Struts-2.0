@@ -1,0 +1,25 @@
+package Ash.class2;
+
+public class Prog25
+{
+	void test()
+	{
+		Class.forName("-----");
+	}
+}
+class Manager
+{
+	public static void main(String[] args)
+	{Prog25 p1=new Prog25();
+		try
+		{
+		
+		p1.test();
+		}
+		catch(ClassNotFoundException ex)
+		{
+			System.out.println(1);
+		}
+	}
+}
+

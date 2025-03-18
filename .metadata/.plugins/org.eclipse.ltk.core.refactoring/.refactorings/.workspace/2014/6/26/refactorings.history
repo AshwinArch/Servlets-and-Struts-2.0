@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Hadoop/src/com/ashwin/hadoop/hw1/StringTokenizer.java&apos;" deleteContents="false" description="Delete resource &apos;Hadoop/src/com/ashwin/hadoop/hw1/StringTokenizer.java&apos;" element1="/Hadoop/src/com/ashwin/hadoop/hw1/StringTokenizer.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1403545471890"/>
+</session>

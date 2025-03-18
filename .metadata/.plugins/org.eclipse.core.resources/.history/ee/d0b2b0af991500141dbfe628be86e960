@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package com.kelly.mapreduce;
+
+/**
+ * @author Diesel
+ *
+ */
+public class DynamicFileReadMR
+{
+
+}

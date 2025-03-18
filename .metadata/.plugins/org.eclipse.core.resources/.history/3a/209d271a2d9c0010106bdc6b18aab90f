@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Apache Software Foundation
+Implementation-Version: 1.0.3
+Specification-Vendor: Apache Software Foundation
+Class-Path: log4j.jar log4j-core.jar
+Created-By: Apache Ant 1.5.1
+Specification-Version: 1.0
+Extension-Name: org.apache.commons.logging
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DyWeb-dec15/WebContent/test.html&apos; to &apos;tes.html&apos;" description="Rename resource &apos;test.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/test.html" name="tes.html" stamp="1295550466452" updateReferences="true"/>
+</session>

@@ -1,0 +1,10 @@
+package Ash.class2;
+
+public class Prog8
+{
+	public static void main(String[] args)
+	{
+		int i=Integer.parseInt("abc");
+		System.out.println(i);
+	}
+}

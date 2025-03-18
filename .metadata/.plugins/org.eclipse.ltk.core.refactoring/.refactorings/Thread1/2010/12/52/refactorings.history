@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Thread1/src/class2&apos; to &apos;deadlock&apos;" description="Rename resource &apos;class2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/class2" name="deadlock" stamp="1292860189408" updateReferences="true"/>
+</session>

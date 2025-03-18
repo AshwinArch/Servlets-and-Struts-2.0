@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="StaticWeb" name="StaticWeb" path="E:/Lab/day-batch/eclipse/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/StaticWeb" type="static"/>
+</server>

@@ -1,0 +1,26 @@
+package Ash.class2;
+
+class Manager
+{
+	void test()throws ClassNotFoundException
+	{
+		Class.forName("-----");
+	}
+}
+class Prog25
+{
+	public static void main(String[] args)throws ClassNotFoundException
+	{
+//	{		
+//		try
+//		{
+			Manager p1=new Manager();
+			p1.test();		
+//		}
+//		catch(ClassNotFoundException ex)	
+//		{
+//			System.out.println(ex);
+//		}
+	}
+}
+//throws will transfer control to calling statement

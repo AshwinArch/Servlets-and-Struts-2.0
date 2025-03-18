@@ -1,0 +1,65 @@
+package com.ash;
+
+import java.io.IOException;
+
+import javax.servlet.jsp.JspException;
+import javax.servlet.jsp.JspWriter;
+import javax.servlet.jsp.PageContext;
+import javax.servlet.jsp.tagext.Tag;
+
+public class HelloTag implements Tag
+{
+	private PageContext pc=null;
+	@Override
+	public void setPageContext(PageContext arg0)
+	{
+		System.out.println("Set Page Context");
+		pc=arg0;	
+	}
+	@Override
+	public void setParent(Tag arg0)
+	{
+		System.out.println("Set PArent");	
+	}
+	@Override
+	public Tag getParent()
+	{
+		System.out.println("Get Parent");
+		return null;
+	}
+	@Override
+	public int doStartTag() throws JspException
+	{
+		System.out.println("Do Start Tag");
+		JspWriter out=pc.getOut();
+		try
+		{
+			out.println("I am in the doStartTag<br>");
+		}
+		catch (IOException e)
+		{
+			e.printStackTrace();
+		}
+		return EVAL_BODY_INCLUDE;
+	}
+	@Override
+	public int doEndTag() throws JspException
+	{
+		System.out.println("Do End Tag");
+		JspWriter out=pc.getOut();
+		try
+		{
+			out.println("<br>I am in the Do End Tag<br>");
+		}
+		catch (IOException e)
+		{
+			e.printStackTrace();
+		}
+		return EVAL_PAGE;
+	}
+	@Override
+	public void release()
+	{
+	System.out.println("release");	
+	}
+}

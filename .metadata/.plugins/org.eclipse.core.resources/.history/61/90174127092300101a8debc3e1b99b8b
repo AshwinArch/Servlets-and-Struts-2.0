@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="DyWeb-Jan18">
+        <property name="context-root" value="DyWeb-Jan18"/>
+    </wb-module>
+</project-modules>

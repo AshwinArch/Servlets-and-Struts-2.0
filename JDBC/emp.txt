@@ -1,0 +1,6 @@
+ramesh;29;2000
+ram;25;3000
+raghu;19;4000
+pavan;59;5000
+swathi;19;6000
+laxmi;39;7000

@@ -1,0 +1,14 @@
+package Ash.class2;
+
+public class Prog26
+{
+	Prog26() throws ClassNotFoundException
+	{
+		Class.forName("----");
+	}
+	public static void main(String[] args) throws ClassNotFoundException
+	{
+		Prog26 p1=new Prog26();
+		System.out.println("done");
+	}
+}

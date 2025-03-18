@@ -1,0 +1,16 @@
+package Ash.class3;
+
+class b1
+{
+	void test1()throws ClassNotFoundException
+	{
+		
+	}
+}
+class Prog7
+{
+	void test1()throws ClassNotFoundException
+	{
+		
+	}
+}

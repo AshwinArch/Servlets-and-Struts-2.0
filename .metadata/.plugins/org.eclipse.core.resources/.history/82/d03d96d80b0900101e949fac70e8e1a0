@@ -1,0 +1,23 @@
+package Ash.class3;
+class A
+{
+	void method()throws Exception
+	{
+		
+	}
+}
+class B extends A
+{
+	void method()throws NullPointerException
+	{
+		
+	}
+}
+class Prog4
+{
+	public static void main(String[] args)
+	{
+		B b1=new B();
+		b1.method();
+	}
+}

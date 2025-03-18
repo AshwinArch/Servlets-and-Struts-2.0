@@ -1,0 +1,20 @@
+package Ash.class3;
+
+class B
+{
+	B()throws Exception 
+	{
+		Class.forName("------");
+	}
+}
+class A
+{
+	A()
+	{
+		super();
+	}
+}
+class Prog1
+{
+	A a1=new A();
+}

@@ -1,0 +1,21 @@
+package ash.com;
+
+class Pro20 extends Thread
+{
+	public void run()
+	{
+		for(int i=0;i<1000;i++)
+		{
+			System.out.println(i);
+		}
+	}
+}
+class Manager
+{
+	public static void main(String[] args)
+	{
+		Pro20 a1=new Pro20();
+		a1.start();
+		a1.run();
+	}
+}

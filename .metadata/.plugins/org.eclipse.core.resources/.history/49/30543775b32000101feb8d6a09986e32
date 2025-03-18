@@ -1,0 +1,29 @@
+<form action="registration">
+FirstName:
+<input type="text" name="fn"><br>
+LastName:
+<input type="text" name="ln"><br>
+Password:
+<input type="password"  name="pw"><br>
+Address:
+<textarea cols="15" rows="4" name="add"></textarea><br>
+Gender:
+<input type="radio" name="gender" value="m">Male &nbsp;&nbsp;
+<input type="radio" name="gender" value="f">Female &nbsp;&nbsp;<br>
+Skills:
+<input type="checkbox" name="skills" value="c">C<br>
+<input type="checkbox" name="skills" value="cpp">C++<br>
+<input type="checkbox" name="skills" value="java">Java<br>
+<input type="checkbox" name="skills" value="orcl">Oracle<br>
+<input type="checkbox" name="skills" value="sql">Sql<br>
+Education:
+<select name="education" multiple>
+<option value="pls">Pls. Select</option>
+<option value="be">B.E.</option>
+<option value="btech">B-Tech</option>
+<option value="me">M.E.</option>
+<option value="mtech">M-Tech</option>
+<option value="phd">P.hd</option>
+</select><br>
+<input type="submit"  value='submit'>
+</form>
